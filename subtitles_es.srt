@@ -1,0 +1,20 @@
+1
+00:00:00,000 --> 00:00:10,500
+Hola, mi nombre es John y esta es la primera grabación 1 2 3 4 5 perro gato limón dinosaurio.
+
+2
+00:00:10,500 --> 00:00:26,500
+Hola. Me llamo S1. Me gusta perro. Tengo hombre. Roja. Verde.
+
+3
+00:00:26,500 --> 00:00:40,200
+Está bien, he vuelto a hablar inglés. Esta es la segunda vez que hablo inglés. Quiero ir a la luna y saltar en trampolines.
+
+4
+00:00:40,200 --> 00:01:09,600
+Hola. Yo tengo un gato grande y mi perro es verdad. Yo soy muy cansado. Lo siento. No hablo español.
+
+5
+00:01:09,600 --> 00:01:18,300
+Y ahora estoy hablando en inglés de nuevo, ese es el último de los transcritos. Ahora esto termina con habla en inglés. ¡Hurra! Gracias.
+
