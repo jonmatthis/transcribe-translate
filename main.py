@@ -1,11 +1,12 @@
-import os
 import csv
-from pydub import AudioSegment
-from openai import OpenAI
+import os
+
 from dotenv import load_dotenv
+from openai import OpenAI
+from pydub import AudioSegment
 
 load_dotenv()
-openai_api_key=os.getenv("OPENAI_API_KEY")
+openai_api_key = os.getenv("OPENAI_API_KEY")
 client = OpenAI(api_key=openai_api_key)
 
 
@@ -65,6 +66,24 @@ def generate_srt(entries: list[dict], target_lang: str, output_path: str):
             f.write(f"{entry[target_lang]}\n\n")
 
 
+def generate_combined_srt(entries: list[dict], output_path: str):
+    """Generate SRT with both languages, tagging translations"""
+    with open(output_path, 'w') as f:
+        for idx, entry in enumerate(entries, 1):
+            f.write(f"{idx}\n")
+            f.write(f"{parse_time(entry['start'])} --> {parse_time(entry['end'])}\n")
+
+            # Determine original and translated text
+            if entry['lang'] == 'en':
+                main_text = entry['en']
+                translated_text = f"{entry['es']} (translated)"
+            else:
+                main_text = entry['es']
+                translated_text = f"{entry['en']} (translated)"
+
+            f.write(f"{main_text}\n{translated_text}\n\n")
+
+
 def main(audio_path: str, csv_path: str, output_dir: str):
     os.makedirs(output_dir, exist_ok=True)
 
@@ -81,6 +100,7 @@ def main(audio_path: str, csv_path: str, output_dir: str):
         srt_entries.append({
             'start': seg['start'],
             'end': seg['end'],
+            'lang': seg['lang'],  # Track original language
             'en': original if seg['lang'] == 'en' else translation,
             'es': original if seg['lang'] == 'es' else translation
         })
@@ -91,6 +111,7 @@ def main(audio_path: str, csv_path: str, output_dir: str):
     # Generate SRT files
     generate_srt(srt_entries, 'en', os.path.join(output_dir, 'subtitles_en.srt'))
     generate_srt(srt_entries, 'es', os.path.join(output_dir, 'subtitles_es.srt'))
+    generate_combined_srt(srt_entries, os.path.join(output_dir, 'subtitles_bilingual.srt'))
 
 
 if __name__ == "__main__":

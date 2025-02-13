@@ -1,0 +1,25 @@
+1
+00:00:00,000 --> 00:00:10,500
+hello my name is John and this is the first recording 1 2 3 4 5 dog cat lemon dinosaur
+Hola, mi nombre es John y esta es la primera grabación 1 2 3 4 5 perro gato limón dinosaurio. (translated)
+
+2
+00:00:10,500 --> 00:00:26,500
+Hola. Me llamo S1. Me gusta perro. Tengo hombre. Roja. Verde.
+Hello. My name is S1. I like dogs. I have a husband. Red. Green. (translated)
+
+3
+00:00:26,500 --> 00:00:40,200
+Okay, I'm back to speaking English. This is the second time I'm speaking English. I want to go to the moon and jump on trampolines.
+Está bien, estoy de vuelta a hablar inglés. Esta es la segunda vez que hablo inglés. Quiero ir a la luna y saltar en trampolines. (translated)
+
+4
+00:00:40,200 --> 00:01:09,600
+Hola. Yo tengo un gato grande y mi perro es verdad. Yo soy muy cansado. Lo siento. No hablo español.
+Hello. I have a big cat and my dog is real. I am very tired. I'm sorry. I don't speak Spanish. (translated)
+
+5
+00:01:09,600 --> 00:01:18,300
+And now I'm speaking English again, that's the last of the transcripts. Now this is ending with English speaking. Hooray. Thank you. 
+Y ahora estoy hablando en inglés de nuevo, eso es lo último de las transcripciones. Ahora esto termina con hablar en inglés. ¡Hurra! Gracias. (translated)
+

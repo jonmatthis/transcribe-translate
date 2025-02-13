@@ -8,7 +8,7 @@ Hola. Me llamo S1. Me gusta perro. Tengo hombre. Roja. Verde.
 
 3
 00:00:26,500 --> 00:00:40,200
-Está bien, he vuelto a hablar inglés. Esta es la segunda vez que hablo inglés. Quiero ir a la luna y saltar en trampolines.
+Está bien, estoy de vuelta a hablar inglés. Esta es la segunda vez que hablo inglés. Quiero ir a la luna y saltar en trampolines.
 
 4
 00:00:40,200 --> 00:01:09,600
@@ -16,5 +16,5 @@ Hola. Yo tengo un gato grande y mi perro es verdad. Yo soy muy cansado. Lo sient
 
 5
 00:01:09,600 --> 00:01:18,300
-Y ahora estoy hablando en inglés de nuevo, ese es el último de los transcritos. Ahora esto termina con habla en inglés. ¡Hurra! Gracias.
+Y ahora estoy hablando en inglés de nuevo, eso es lo último de las transcripciones. Ahora esto termina con hablar en inglés. ¡Hurra! Gracias.
 
